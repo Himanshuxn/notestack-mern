@@ -1,0 +1,55 @@
+.title {
+    font-size: 69px;
+    color: azure;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+  }
+  .subtitle {
+    font-size: 25px;
+    padding-top: 10px;
+    color: azure;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+  }
+  .intro-text {
+    width: 100%;
+    text-align: center;
+    filter:alpha(opacity=80);
+  }
+
+  .main {
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../../background2.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .buttonContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 0.8;
+  }
+  
+  .landingbutton {
+    width: 200px;
+    height: 55px;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .buttonContainer {
+      padding: 0 200px;
+    }
+    .title {
+      padding: 0 80px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .title {
+      font-size: 60px;
+    }
+    .landingbutton {
+      width: 150px;
+      height: 50px;
+    }
+  }
